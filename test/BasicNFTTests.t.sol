@@ -19,7 +19,7 @@ contract BasicNFTTests is Test{
     }
 
     function testNameIsCorrect() public view{
-        string
+       
     }
 
 }
