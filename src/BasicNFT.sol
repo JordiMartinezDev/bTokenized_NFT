@@ -13,7 +13,7 @@ contract BasicNFT is ERC721{
     error BasicNFT__TransferFailed();
 
     // This will be the template to create eacth NFT inside a collection NFT
-    constructor() ERC721("TestNFT","TNFT"){
+    constructor(string memory _name, string memory _symbol) ERC721(_name, _symbol){
         s_TokenId = 0;
     }
 
